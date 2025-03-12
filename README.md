@@ -6,10 +6,13 @@ Cenário: Você está desenvolvendo um sistema de gerenciamento de empréstimos 
 
 Requisitos 📃:
 [] Criar um cliente com: 
+    [] id,
     [] nome, 
     [] CPF, 
     [] telefone, 
-    [] endereço.
+    [] endereço,
+    [] created_at,
+    [] updated_at
 [] Listar todos os clientes cadastrados.
 [] Atualizar os dados de um cliente pelo ID.
 [] Deletar um cliente pelo ID.

@@ -13,4 +13,6 @@ export async function jsonHandler(request, response){
     } catch (error) {
         request.body = null
     }
+
+    response.setHeader("content-Type","application/json")
 }
