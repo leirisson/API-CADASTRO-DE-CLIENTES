@@ -30,9 +30,18 @@ export class Database {
         this.#persist()
     }
 
-    select(tabela){
+    select(tabela, filters){
 
         let data = this.#database[tabela] ?? []
+
+        if(filters){
+            data = data.filter((row) => {
+              return Object.entries(filters).some(([key, value]) => {
+                return row[key].toLowerCase().includes(value.toLowerCase())
+              })
+            })
+
+        }
 
         return data
 

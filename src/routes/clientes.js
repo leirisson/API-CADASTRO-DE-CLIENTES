@@ -1,25 +1,26 @@
 import { create } from "../controller/clientes/create.js";
-import { select } from '../controller/clientes/select.js'
+import { select } from '../controller/clientes/select.js';
+import { update } from '../controller/clientes/update.js'
 
 export const clientes = [
     {
         method: "GET",
-        path: "/clientes",
+        path: "/emprestimos",
         controller: select
     },
     {
         method: "POST",
-        path: "/clientes",
+        path: "/emprestimos",
         controller: create
     },
-    // {
-    //     method: "PUT",
-    //     path: "/clientes",
-    //     controller: create
-    // },
+    {
+        method: "PUT",
+        path: "/emprestimos/:id",
+        controller: update
+    },
     // {
     //     method: "DELETE",
-    //     path: "/clientes",
+    //     path: "/emprestimos",
     //     controller: create
     // }
 ]
