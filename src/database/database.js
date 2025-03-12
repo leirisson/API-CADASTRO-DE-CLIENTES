@@ -29,4 +29,12 @@ export class Database {
 
         this.#persist()
     }
+
+    select(tabela){
+
+        let data = this.#database[tabela] ?? []
+
+        return data
+
+    }
 }
