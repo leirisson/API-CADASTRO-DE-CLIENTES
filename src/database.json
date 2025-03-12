@@ -1,1 +1,32 @@
-{}
+{
+    "emprestimos": [
+        {
+            "id": "49499124-6918-400e-9630-98832db1511b",
+            "nome": "Leirisson souza",
+            "cpf": "78945612398",
+            "telefone": "979949856",
+            "valor": 5000,
+            "endereco": {
+                "rua": "jazida",
+                "bairro": "são jorge",
+                "numero": 45
+            },
+            "created_at": "2025-03-12T19:06:05.064Z",
+            "updated_at": "2025-03-12T19:06:05.064Z"
+        },
+        {
+            "id": "fb0f96fd-219e-4286-a0ed-669e9939d1c1",
+            "nome": "Leirisson souza",
+            "cpf": "78945612398",
+            "telefone": "979949856",
+            "valor": 5000,
+            "endereco": {
+                "rua": "jazida",
+                "bairro": "são jorge",
+                "numero": 45
+            },
+            "created_at": "2025-03-12T19:06:41.362Z",
+            "updated_at": "2025-03-12T19:06:41.362Z"
+        }
+    ]
+}
