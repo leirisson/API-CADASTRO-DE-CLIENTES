@@ -1,7 +1,9 @@
 import http from 'node:http'
+import { jsonHandler } from './middleware/jsonHandler.js'
 
 
-function listener(request, response){
+async function listener(request, response){
+    await jsonHandler(request, response)
 
 }
 
